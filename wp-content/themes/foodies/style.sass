@@ -1,0 +1,531 @@
+@import "_fonts"
+@import "_vars"
+@import "_header"
+.wp-caption 
+    background: #fff
+    border: 1px solid #f0f0f0
+    max-width: 98.5%
+    /* Image does not overflow the content area */
+    padding: 5px 3px 10px
+    text-align: center
+
+.wp-caption.alignleft 
+    margin: 5px 20px 20px 0
+
+.wp-caption.alignright 
+    margin: 5px 0 20px 20px
+
+.wp-caption p.wp-caption-text 
+    font-size: 12px
+    line-height: 17px
+    margin: 0
+    text-align: center
+    padding: 10px 4px 0px
+
+.wp-caption a 
+    color: #fff
+
+.wp-caption,
+.gallery 
+    margin-bottom: 1.6842em
+
+iframe,
+embed 
+    max-width: 100%
+
+.sticky .entry-date 
+    display: none
+
+.gallery-caption 
+    background-color: rgba(0, 0, 0, 0.7)
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    color: #fff
+    font-size: 12px
+    line-height: 1.5
+    max-height: 50%
+    opacity: 0
+    padding: 6px 8px
+    position: absolute
+    bottom: 0
+    left: 0
+    text-align: left
+    width: 100%
+
+.gallery-caption:before 
+    content: ""
+    height: 100%
+    min-height: 49px
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+
+.gallery-item:hover .gallery-caption 
+    opacity: 1
+
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption 
+    display: none
+
+.bypostauthor 
+/* Text meant only for screen readers. */
+.screen-reader-text 
+  clip: rect(1px, 1px, 1px, 1px)
+  position: absolute !important
+  height: 1px
+  width: 1px
+  overflow: hidden
+
+.alignright 
+    float: right
+    margin: 5px 0 20px 20px
+
+.alignleft 
+    float: left
+    margin: 5px 20px 20px 0
+
+.aligncenter 
+    display: block
+    margin-left: auto
+    margin-right: auto
+
+.alignright 
+    display: inline
+    float: right
+
+.single-blog-social a[rel~='nofollow'] 
+    outline: 0em dotted transperant !important
+    outline-offset: 0em
+
+img 
+  width: auto
+  max-width: 100%
+  height: auto
+
+/* Wrapper */
+.sl-wrapper a 
+    border-bottom: 0 !important
+    text-decoration: none !important
+
+.sl-button 
+    font-size: 1em
+    line-height: 1
+    font-weight: normal
+
+
+/* Colors */
+a.liked 
+    color: #da1b1b
+
+a.liked:hover,
+a.liked:active,
+a.liked:focus 
+    color: #666666
+
+a.liked span.sl-count,
+.sl-count 
+    color: #666666
+
+
+/* Icon */
+.sl-icon 
+    margin-right: 0.3125em
+    font-family: 'Arial Unicode MS', Arial, sans-serif
+    vertical-align: middle
+
+.sl-icon svg 
+    fill: currentColor
+    width: 1em
+    height: 1em
+
+.sl-icon svg:after 
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+
+
+/* Count */
+.sl-count 
+    font-size: 0.625em
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif
+    text-transform: uppercase
+    vertical-align: middle
+
+
+/* Loader */
+.loader,
+.loader:before,
+.loader:after 
+  background: rgba(0, 0, 0, 0.2)
+  -webkit-animation: load1 1s infinite ease-in-out
+  animation: load1 1s infinite ease-in-out
+  width: .2em
+  height: .6em
+
+.loader:before,
+.loader:after 
+  position: absolute
+  top: 0
+  content: ''
+
+.loader:before 
+  left: -.375em
+  -webkit-animation-delay: -0.32s
+  animation-delay: -0.32s
+
+.loader 
+  text-indent: -9999em
+  display: inline-block
+  position: relative
+  vertical-align: middle
+  font-size: 1em
+  -webkit-transform: translateZ(0)
+  -ms-transform: translateZ(0)
+  transform: translateZ(0)
+  -webkit-animation-delay: -0.16s
+  animation-delay: -0.16s
+
+.loader:after 
+  left: .375em
+
+@-webkit-keyframes load1 
+  0%,
+  80%,
+  100% 
+    box-shadow: 0 0 rgba(0, 0, 0, 0.2)
+    height: .6em
+  
+  40% 
+    box-shadow: 0 -.3em rgba(0, 0, 0, 0.2)
+    height: 1em
+  
+
+@keyframes load1 
+  0%,
+  80%,
+  100% 
+    box-shadow: 0 0 rgba(0, 0, 0, 0.2)
+    height: .6em
+  
+  40% 
+    box-shadow: 0 -.3em rgba(0, 0, 0, 0.2)
+    height: 1em
+
+
+body
+  margin-top: 124px
+
+  /*Custom recallbar*/
+
+.modal-dialog 
+  margin: 0px auto
+  padding: 150px 0px
+
+#rcl-overlay
+  z-index: 9999
+#recallbar
+  z-index: 9999 
+  height: 150px 
+  .rcb_left
+    margin: 0px
+    width: 60%
+    float: left
+  .rcb_right
+    width: 35%
+    float: right
+    margin: 0 0 0 5%
+    &::after
+      content: ""
+      display: block
+      clear: both
+  ul 
+    max-width: 100%
+.header-top
+  border-bottom: 5px solid darken($accent, 30%)
+  margin: 0 -15px
+  display: inline-block
+  .navbar-collapse
+    width: 100%
+    margin: 0 auto
+    .menu
+      display: flex
+      justify-content: flex-start
+      flex-wrap: wrap
+      max-width: 100%
+      li 
+        transition: all .5s ease
+        padding: 5px !important
+        &:hover
+          a 
+            background-color: $blue
+            i, span
+              color: #FFF
+        
+        a 
+          padding: 5px 10px
+          
+          i 
+            font-size: 1.25rem
+            font-weight: 600
+            margin-right: 20px
+          span 
+              font-size: 1.25rem
+              font-weight: 600
+              margin-left: 10px 
+.diy-first-line
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 80px
+  .diy-language-switcher
+    position: relative
+    float: left
+    width: 40% 
+    margin-right: 22%
+    select
+      background-color: #FFF
+  .diy-login-buttons
+    position: relative
+    float: left
+    width: 50% 
+    .rcb_icon
+      margin: 0 5px
+.rcb_hiden
+  display: none 
+.rcb_right_menu 
+  z-index: 9999
+  padding: 0 30px
+  position: absolute !important
+  top: 20px
+  right: 15px
+  margin: 0 !important
+  &:hover
+    border: none !important
+
+
+.diy-search-bar
+  text-align: center
+  form
+    position: relative
+    z-index: 10
+    margin-top: 10px
+    input
+      padding: 10px 
+      line-height: 10px
+      outline: none
+      border: 3px solid darken($accent, 30%)
+      display: inline-block
+      width: 75%
+      height: 45px
+      line-height: 45px
+      background-color: #FFF
+      
+    button
+      padding: 0
+      height: 45px
+      width: 45px
+      line-height: 45px
+      text-align: center
+      display: inline-block
+      .fa 
+        font-size: 18px !important
+        line-height: 18px !important
+        &::before
+          font-size: 18px !important
+          line-height: 18px !important
+      &:hover
+        .fa 
+          &::before
+            color: darken(#111, 30%)
+
+    
+//SideBar
+.side-bar
+  top: 150px
+  padding: 0
+.navbar-header
+  width: 100%
+  height: 60px
+  border-bottom: 5px solid #66C7CD
+  background: none repeat scroll 0% 0% #F9C869
+  text-align: center
+  transition: all 0.5s ease 0s
+  &:hover
+    border-bottom: 5px solid #F86868
+  .navbar-brand 
+    width: 100%
+.side-bar-collapse
+  ul 
+    padding: 0
+    li 
+      display: block
+      list-style-type: none
+      a 
+        margin-bottom: 5px
+        display: block
+        background-color: $bg
+        border-bottom: 3px solid $blue
+        text-align: left
+        padding: 5px 10px
+        transition: .5s ease
+        text-decoration: none
+        color: $ancor
+        font-size: 1rem
+        font-weight: 400
+        &:hover
+          box-shadow: 2px 3px 3px lighten($dark, 20%)
+          border-bottom: 3px solid #F86868
+          transition: .25s ease
+        &::before
+          content: "\f0a4"
+          display: inline-block
+          font-family: "FontAwesome"
+          font-size: 1rem
+          font-weight: 600
+          color: $ancor
+          margin-right: 10px
+          padding: 5px 
+
+      ul 
+        padding-left: 15px
+    .current-cat
+      &:nth-child(1)
+        display: none
+        
+      &:nth-child(2)
+        a 
+          display: inline-block
+          width: 100%
+          margin-top: 10px
+          color: #FFF
+          background: lighten($dark, 20%)
+          &::before
+            color: #FFF
+      .children       
+        .cat-item
+          a 
+            margin-bottom: 5px
+            display: block
+            background-color: $bg
+            border-bottom: 3px solid $blue
+            text-align: left
+            padding: 5px 10px
+            transition: .5s ease
+            text-decoration: none
+            color: $ancor
+            font-size: 1rem
+            font-weight: 400
+            &:hover
+              box-shadow: 2px 3px 3px lighten($dark, 20%)
+              border-bottom: 3px solid #F86868
+              transition: .25s ease
+            &::before
+              content: "\f0a4"
+              display: inline-block
+              font-family: "FontAwesome"
+              font-size: 1rem
+              font-weight: 600
+              color: $ancor
+              margin-right: 10px
+              padding: 5px 
+
+//Menu Main Menu
+  
+.main-menu, 
+.footer-nav
+  background: darken($over, 10%)
+  background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 15%,#474747 39%,#2c2c2c 50%,#000000 56%,#111111 66%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 )
+  width: 99%
+  height: auto
+  margin: 20px auto
+  padding: 10px
+  &::after
+    content: ""
+    display: block
+    clear: both
+  .main-menu-block
+    width: 70%
+    float: left
+    ul
+      list-style-type: none
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      flex-direction: row
+      flex-wrap: wrap
+      margin: 0
+      padding: 0
+      li 
+        position: relative
+
+        a 
+          padding: 10px
+          text-decoration: none
+          display: block
+          color: $ancor-menu
+        ul
+          position: absolute
+          min-width: 150px
+          display: none
+          z-index: 2
+          li
+            border: 1px solid #c7c8ca
+            a 
+            display: block
+            
+        transition: all .5s ease
+        &:hover
+          background-color: $blue
+          transition: all .5s ease
+          a
+            color: #FFF
+          ul 
+            display: block
+            li 
+              transition: all .5s ease
+              background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 15%,#2c2c2c 22%,#474747 45%,#000000 56%,#111111 66%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%)
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 )
+              a 
+                color: lighten($blue, 10%)
+                
+              &:hover
+                background: $blue
+                a 
+                  color: #FFF
+              a 
+                display: block
+  .main-menu-cach
+      float: right    
+      text-align: right 
+      font-size: 16px
+      a   
+        margin-right: 10px
+        text-decoration: none
+        padding: 10px
+        display: block
+        color: $ancor-menu
+        &::before
+          font-family: "FontAwesome"
+          content: "\f07a"
+          font-size: 16px
+          font-weight: 600
+          display: inline-block 
+        span 
+          display: inline-block
+          margin-left: 10px
+        &:hover
+          background-color: $blue
+          span
+            color: #FFF
+          &::before
+            color: darken($blue, 20%)
+                  
+            
+@import "_media.sass"

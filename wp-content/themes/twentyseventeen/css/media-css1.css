@@ -1,0 +1,326 @@
+
+@media screen and (max-width: 1280px) {
+
+.btn-block {
+    display: block;
+    width: 100%;
+}	
+}
+@media screen and (max-width: 980px) {
+.inscription-anna{
+    font-size: 90%;
+    font-weight: 400;
+}
+/*Page5*/
+.home-portfolio-text >h5{
+	font-size: 100%;
+    font-weight: 400;
+}
+.post-subtitle-portfolio{
+	font-size: 85%;
+    font-weight: 400;
+}
+/*Page 7*/
+.map-salon > iframe {
+    width: 512px;
+    height: 384px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.head-backg-buttons {
+    position: relative;
+    float: none;
+    text-align: center;
+}
+.social-vk{
+	text-align: center;
+	margin-bottom: 10%;
+}
+/* Page 3*/
+.dossier-anna-text{
+	font-size: 100%;
+    font-weight: 400;
+}
+.anna-resume{
+	font-size: 100%;
+    font-weight: 400;
+}
+.anna-resume-text{
+	font-size: 100%;
+    font-weight: 400;
+    margin-bottom: 25%;
+}
+/*Page 5*/
+.home-portfolio-text >h5{
+	font-size: 90%;
+    font-weight: 400;
+}
+.post-subtitle-portfolio{
+	font-size: 80%;
+    font-weight: 400;
+}
+/*Page 7*/
+.map-salon > iframe {
+    width: 480px;
+    height: 360px;
+}
+}
+
+@media screen and (max-width: 640px) {
+
+.btn-lg {padding: 0.25rem 0.5rem;
+font-size: 0.875rem;
+border-radius: 0.2rem;
+}
+.social-vk{
+	text-align: center;
+	margin-bottom: 10%;
+}
+.inscription-anna{
+    font-size: 80%;
+    font-weight: 400;
+}
+.number-service-right {
+	margin-bottom: 10%;
+}
+#barber-service-content{
+	    font-size: 90%;
+    font-weight: 400;
+}
+.number-service{
+	font-size: 100%;
+    font-weight: 400;
+}
+.number-service-left{
+font-size: 90%;
+    font-weight: 400;
+}
+.number-service-right{
+	font-size: 90%;
+    font-weight: 400;
+}
+.head-backg-buttons {
+    position: relative;
+    float: none;
+    text-align: center;
+}
+.header {
+    margin-bottom: 15%;
+}
+/*Page 7*/
+
+}
+
+@media screen and (max-width: 544px) {
+/*Page5*/
+.home-portfolio-text >h5{
+	font-size: 80%;
+    font-weight: 400;
+}
+.pp_description{
+	font-size: 80%;
+    font-weight: 400;
+}
+/*Page 7*/
+.adress-salon{
+	font-size: 90%;
+    font-weight: 400;
+}
+.phone-salon{
+	font-size: 90%;
+    font-weight: 400;
+}
+.phone{
+	font-size: 90%;
+    font-weight: 400;
+}
+.developer{
+	font-size: 90%;
+    font-weight: 400;
+}
+.map-salon > iframe {
+    width: 320px;
+    height: 240px;
+}
+}
+ 
+@media screen and (max-width: 320px) {
+
+/* Page 1 */
+.btn-lg {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.600rem;
+    border-radius: 0.2rem;
+}
+/* Page 7 */
+.map-salon >iframe {
+width:240px;
+height:320px;
+}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+	/*Portfolio Image*/
+img#fullResImage /*Картинка*/{
+width: 360px !important;
+height: 480px !important;
+margin-left: 25px;
+}
+.pp_content /*Белый фон*/{
+height: 550px !important;
+}
+.pp_hoverContainer /*Кнопки переключения фона */ {
+    height: 551px !important;
+    width: 401px !important;
+}
+.pp_pic_holder /*Размеры рамки */{
+    width: 480px !important;
+}
+a.pp_close /*Кнопка выключения */{
+    float: none;
+    margin-left: 400px;
+    margin-bottom: -20px;
+    /*margin-top: -30px;*/
+}
+a.pp_expand, a.pp_contract /*Кнопка закрытия*/{
+right: 50px !important;
+top: 20px !important;
+}
+div.pp_pic_holder {
+    left: 30px !important;
+}
+}
+@media screen and (max-width: 980px) {
+/*Portfolio Image*/
+img#fullResImage /*Картинка*/{
+width: 300px !important;
+height: 420px !important;
+margin-left: 25px;
+}
+.pp_content /*Белый фон*/{
+height: 500px !important;
+}
+.pp_hoverContainer /*Кнопки переключения фона */ {
+    height: 501px !important;
+    width: 361px !important;
+}
+.pp_pic_holder /*Размеры рамки */{
+    width: 420px !important;
+}
+a.pp_close /*Кнопка выключения */{
+    float: none;
+    margin-left: 350px;
+    margin-bottom: -20px;
+    /*margin-top: -30px;*/
+}
+a.pp_expand, a.pp_contract /*Кнопка закрытия*/{
+right: 10px !important;
+top: 30px !important;
+}
+div.pp_pic_holder {
+    left: 30px !important;
+}
+
+}
+@media screen and (max-width: 767px) {
+/*Portfolio Image*/
+img#fullResImage /*Картинка*/{
+width: 240px !important;
+height: 320px !important;
+margin-left: 25px;
+}
+.pp_content /*Белый фон*/{
+height: 400px !important;
+}
+.pp_hoverContainer /*Кнопки переключения фона */ {
+    height: 381px !important;
+    width: 281px !important;
+}
+.pp_pic_holder /*Размеры рамки */{
+    width: 350px !important;
+}
+a.pp_close /*Кнопка выключения */{
+    float: none;
+    margin-left: 280px;
+    margin-bottom: -20px;
+    /*margin-top: -30px;*/
+}
+a.pp_expand, a.pp_contract /*Кнопка закрытия*/{
+right: 20px !important;
+top: 30px !important;
+}
+div.pp_pic_holder {
+    left: 30px !important;
+}
+
+}
+@media screen and (max-width: 640px) {
+
+img#fullResImage /*Картинка*/{
+width: 190px !important;
+height: 270px !important;
+margin-left: 25px;
+}
+.pp_content /*Белый фон*/{
+height: 400px !important;
+}
+.pp_hoverContainer /*Кнопки переключения фона */ {
+    height: 321px !important;
+    width: 241px !important;
+}
+.pp_pic_holder /*Размеры рамки */{
+    width: 300px !important;
+}
+a.pp_close /*Кнопка выключения */{
+    float: none;
+    margin-left: 235px;
+    margin-bottom: -20px;
+    /*margin-top: -30px;*/
+}
+a.pp_expand, a.pp_contract /*Кнопка закрытия*/{
+right: 20px !important;
+top: 30px !important;
+}
+div.pp_pic_holder {
+    left: 30px !important;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+img#fullResImage /*Картинка*/{
+width: 160px !important;
+height: 220px !important;
+margin-left: 25px;
+}
+.pp_content /*Белый фон*/{
+height: 300px !important;
+}
+.pp_hoverContainer /*Кнопки переключения фона */ {
+    height: 300px !important;
+    width: 200px !important;
+}
+.pp_pic_holder /*Размеры рамки */{
+    width: 270px !important;
+}
+a.pp_close /*Кнопка выключения */{
+    float: none;
+    margin-left: 205px;
+    margin-bottom: -20px;
+    /*margin-top: -30px;*/
+}
+a.pp_expand, a.pp_contract /*Кнопка закрытия*/{
+right: 20px !important;
+top: 30px !important;
+}
+div.pp_pic_holder {
+    left: 30px !important;
+}
+.pp_details {
+width: 110px !important;
+}
+}

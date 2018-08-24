@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Host: anna-budyanskaya.kh.ua
+Sitemap: http://anna-budyanskaya.kh.ua/sitemap.xml

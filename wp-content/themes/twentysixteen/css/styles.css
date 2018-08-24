@@ -1,0 +1,85 @@
+/* Базовые стили */
+
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+ol, ul, li { list-style:none }
+caption, th { text-align:left }
+h1, h2, h3, h4, h5, h6 {font-weight:normal;font-size: 16px}
+q:before, q:after { content:''}
+strong { font-weight: bold }
+em { font-style: italic }
+.aligncenter { display:block; margin:0 auto }
+.alignleft { float:left }
+.alignright { float:right }
+div { /*! position:relative */ } 
+/* Базовые стили */
+
+
+html{-webkit-font-smoothing:antialiased;}
+
+a{color:#65a42d;text-decoration: none !important;}
+a:hover{color:#65a42d; text-decoration:underline;font-weight: 900;}
+.column-clear{ clear:both;}
+.wrapper{ margin:0px auto; padding:0px;width:1080px;}
+.portfolio-content, .portfolio-area{margin-left: 2%;}
+.title-page{font-size:20px;margin:30px 0px 30px 0px;text-align: center;color: #3C2B94;font-weight:800;}
+.goto{float:right;width:130px;margin:-80px 30px 0px 0px;}
+
+
+.portfolio-categ{margin-bottom:30px;color: #65a42d;}
+.portfolio-categ li{display:inline;margin-right:10px;}
+.image-block{ display:block;position: relative;}
+.image-block img{border: 1px solid #d5d5d5; border-radius: 4px 4px 4px 4px;background:#FFFFFF;padding:10px;}
+.image-block img:hover{border: 1px solid #A9CF54;box-shadow:0 0 5px #A9CF54;}
+.home-portfolio-text{margin-top:10px;}
+li.active a{ text-decoration:underline;}
+
+
+/* Стили для футера */
+footer {
+      background-color:#212121;
+      bottom:0;
+      box-shadow: 0 -1px 2px #111111;
+      display:block;
+      height:70px;
+      left:0;
+      position:fixed;
+      width:100%;
+      z-index:100;
+  }
+
+  footer h2 {
+      font-size:22px !important;
+      font-family:tahoma;
+      font-weight:normal;
+      left:50%;
+      margin:16px 0 0 -500px;
+      padding:10px 0;
+      position:absolute;
+      width:540px;
+      color:#fff;
+  }
+
+  footer a.stuts,a.stuts:visited{
+      border:none;
+      text-decoration:none;
+      font-family:tahoma;
+      color:#fcfcfc;
+      font-size:14px;
+      left:50%;
+      line-height:31px;
+      margin:23px 0 0 110px;
+      position:absolute;
+      top:0;
+  }
+
+  footer a.stuts:hover {
+    color:#4280af;
+  }
+
+  footer .stuts span {
+      font-size:22px;
+      font-weight:bold;
+      margin-left:5px;
+  }  	
